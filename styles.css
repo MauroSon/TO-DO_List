@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{ 
+    font-size: 60px;
+    font-family: "Playwrite US Trad", cursive;
+    text-align: center;  
+}
+
+#text_info{
+    border-style: solid;
+    border-radius: 1em;
+    width: 35em;
+    height: 1.5em;
+    padding: 1.2em;
+    font-size: 16px;
+}
+
+#addButton{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#feedbackMessage{
+    display: flex;
+    justify-content: center;
+}
+
+#input_container{
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+}

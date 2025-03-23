@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="ion_book-sharp.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1 id="title">TO-DO List</h1>
+        <div id="input_container">
+            <input id="text_info" type="text" placeholder="Digite aqui sua atividade...">
+            <button id="addButton"><img src="quill.png" alt=""></button>
+        </div>
+        <div id="feedbackMessage"></div>
+    </header>
+    <main>
+        <ul id="lista" style="display: flex; flex-direction: column; width: 100%; margin-top: 5vh; padding: 0; list-style: none;">
+            <!-- Os itens serão adicionados aqui via JavaScript -->
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
